@@ -41,3 +41,13 @@ pyenv activate lewagon 2>/dev/null && echo "🐍 Loading 'lewagon' virtualenv"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export PYTHONPATH="/Users/jessicaribeiro/code/jessdsr/data-challenges/04-Decision-Science:$PYTHONPATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
+
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/jessicaribeiro/Desktop/Le\ Wagon/gcp_keys/Wagon\ Bootcamp-8ec4a9fcf0c7.json
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
