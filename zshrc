@@ -51,3 +51,4 @@ if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion
 
 export GOOGLE_APPLICATION_CREDENTIALS=/Users/jessicaribeiro/Desktop/Le\ Wagon/gcp_keys/Wagon\ Bootcamp-8ec4a9fcf0c7.json
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
